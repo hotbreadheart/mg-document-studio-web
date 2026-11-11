@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="교육 자료를 정리해 A4·A5 강목과 노트를 PDF와 한글 문서로 만드는 작업실입니다.">
+    <title>MG 문서 공방</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        display: grid;
+        grid-template-rows: auto minmax(0, 1fr);
+        min-width: 0;
+        height: 100vh;
+        height: 100dvh;
+        margin: 0;
+        background: Canvas;
+        color: CanvasText;
+        font: 0.875rem/1.5 system-ui, sans-serif;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 0.25rem 1rem;
+        padding: 0.45rem clamp(0.75rem, 3vw, 2rem);
+        border-bottom: 1px solid color-mix(in srgb, CanvasText 18%, Canvas);
+      }
+      iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <strong>MG 문서 공방</strong>
+      <a href="https://mg-document-studio.silvercandy2.chatgpt.site/" target="_blank" rel="noopener">공방을 새 탭에서 열기</a>
+    </header>
+    <iframe src="https://mg-document-studio.silvercandy2.chatgpt.site/" title="MG 문서 공방 작업실"></iframe>
+  </body>
+</html>
